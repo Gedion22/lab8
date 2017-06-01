@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/request.h
+string.h
+-
+ctype.h
+-
+jansson.h
+-
+progbase/net.h
+-
+
+/home/student/projects/progbase2/labs/lab8/server/src/request.c
+string.h
+-
+ctype.h
+-
+jansson.h
+-
+time.h
+-
+request.h
+-
+

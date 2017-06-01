@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/student/projects/progbase2/labs/lab8/client/build",
+  "command": "/usr/bin/cc   -g -I/home/student/projects/progbase2/labs/lab8/client/include    -o CMakeFiles/client.dir/client.c.o   -c /home/student/projects/progbase2/labs/lab8/client/client.c",
+  "file": "/home/student/projects/progbase2/labs/lab8/client/client.c"
+}
+]

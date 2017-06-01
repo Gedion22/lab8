@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/student/projects/progbase2/labs/lab8/server/build",
+  "command": "/usr/bin/cc   -std=c99 -Werror -Wall -g -I/home/student/projects/progbase2/labs/lab8/server/include    -o CMakeFiles/server.dir/main.c.o   -c /home/student/projects/progbase2/labs/lab8/server/main.c",
+  "file": "/home/student/projects/progbase2/labs/lab8/server/main.c"
+},
+{
+  "directory": "/home/student/projects/progbase2/labs/lab8/server/build",
+  "command": "/usr/bin/cc   -std=c99 -Werror -Wall -g -I/home/student/projects/progbase2/labs/lab8/server/include    -o CMakeFiles/server.dir/src/request.c.o   -c /home/student/projects/progbase2/labs/lab8/server/src/request.c",
+  "file": "/home/student/projects/progbase2/labs/lab8/server/src/request.c"
+}
+]

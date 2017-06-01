@@ -1,0 +1,134 @@
+\hypertarget{request_8h}{\section{server/include/request.h File Reference}
+\label{request_8h}\index{server/include/request.\-h@{server/include/request.\-h}}
+}
+
+
+request  
+
+
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$ctype.\-h$>$}\\*
+{\ttfamily \#include $<$jansson.\-h$>$}\\*
+{\ttfamily \#include $<$progbase/net.\-h$>$}\\*
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{request_8h_a0bcb955edd03e1aa884e8fc08a073c64}{typedef struct \hyperlink{structMemes}{Memes} {\bfseries Memes}}\label{request_8h_a0bcb955edd03e1aa884e8fc08a073c64}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{request_8h_a92c2faad5b4792601c19ecf54d665eb6}{req1} (Net\-Message $\ast$message)
+\begin{DoxyCompactList}\small\item\em first req \end{DoxyCompactList}\item 
+void \hyperlink{request_8h_a989a904822eb437c2b534a3ff6639c77}{req\-Favorites} (Net\-Message $\ast$message)
+\begin{DoxyCompactList}\small\item\em favorite req \end{DoxyCompactList}\item 
+void \hyperlink{request_8h_a7c1c9627098b0784eac716397d69df4e}{req\-Favorites\-Key} (int key, char $\ast$value, Net\-Message $\ast$message)
+\begin{DoxyCompactList}\small\item\em favorite req key \end{DoxyCompactList}\item 
+void \hyperlink{request_8h_aff78a2ad9389484e666e7a027049765d}{req\-File} (Net\-Message $\ast$message)
+\begin{DoxyCompactList}\small\item\em req file \end{DoxyCompactList}\item 
+void \hyperlink{request_8h_a1bed618f49f96c7b879672eecbf5841c}{req\-File\-Data} (Net\-Message $\ast$message)
+\begin{DoxyCompactList}\small\item\em data file req \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+request 
+
+\subsection{Function Documentation}
+\hypertarget{request_8h_a92c2faad5b4792601c19ecf54d665eb6}{\index{request.\-h@{request.\-h}!req1@{req1}}
+\index{req1@{req1}!request.h@{request.\-h}}
+\subsubsection[{req1}]{\setlength{\rightskip}{0pt plus 5cm}void req1 (
+\begin{DoxyParamCaption}
+\item[{Net\-Message $\ast$}]{message}
+\end{DoxyParamCaption}
+)}}\label{request_8h_a92c2faad5b4792601c19ecf54d665eb6}
+
+
+first req 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{request_8h_a989a904822eb437c2b534a3ff6639c77}{\index{request.\-h@{request.\-h}!req\-Favorites@{req\-Favorites}}
+\index{req\-Favorites@{req\-Favorites}!request.h@{request.\-h}}
+\subsubsection[{req\-Favorites}]{\setlength{\rightskip}{0pt plus 5cm}void req\-Favorites (
+\begin{DoxyParamCaption}
+\item[{Net\-Message $\ast$}]{message}
+\end{DoxyParamCaption}
+)}}\label{request_8h_a989a904822eb437c2b534a3ff6639c77}
+
+
+favorite req 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{request_8h_a7c1c9627098b0784eac716397d69df4e}{\index{request.\-h@{request.\-h}!req\-Favorites\-Key@{req\-Favorites\-Key}}
+\index{req\-Favorites\-Key@{req\-Favorites\-Key}!request.h@{request.\-h}}
+\subsubsection[{req\-Favorites\-Key}]{\setlength{\rightskip}{0pt plus 5cm}void req\-Favorites\-Key (
+\begin{DoxyParamCaption}
+\item[{int}]{key, }
+\item[{char $\ast$}]{value, }
+\item[{Net\-Message $\ast$}]{message}
+\end{DoxyParamCaption}
+)}}\label{request_8h_a7c1c9627098b0784eac716397d69df4e}
+
+
+favorite req key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message,key,value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{request_8h_aff78a2ad9389484e666e7a027049765d}{\index{request.\-h@{request.\-h}!req\-File@{req\-File}}
+\index{req\-File@{req\-File}!request.h@{request.\-h}}
+\subsubsection[{req\-File}]{\setlength{\rightskip}{0pt plus 5cm}void req\-File (
+\begin{DoxyParamCaption}
+\item[{Net\-Message $\ast$}]{message}
+\end{DoxyParamCaption}
+)}}\label{request_8h_aff78a2ad9389484e666e7a027049765d}
+
+
+req file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{request_8h_a1bed618f49f96c7b879672eecbf5841c}{\index{request.\-h@{request.\-h}!req\-File\-Data@{req\-File\-Data}}
+\index{req\-File\-Data@{req\-File\-Data}!request.h@{request.\-h}}
+\subsubsection[{req\-File\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void req\-File\-Data (
+\begin{DoxyParamCaption}
+\item[{Net\-Message $\ast$}]{message}
+\end{DoxyParamCaption}
+)}}\label{request_8h_a1bed618f49f96c7b879672eecbf5841c}
+
+
+data file req 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message,key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
